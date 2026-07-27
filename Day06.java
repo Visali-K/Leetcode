@@ -12,7 +12,7 @@ class Day6 {
         int m1 = sc.nextInt();
         int y1 = sc.nextInt();
 
-      
+    
         int d2 = sc.nextInt();
         int m2 = sc.nextInt();
         int y2 = sc.nextInt();
