@@ -13,7 +13,6 @@ public class Day1 {
             large = small % large;
             small = temp;
         }
-
         return small;
     }
 
