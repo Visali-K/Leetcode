@@ -8,7 +8,6 @@ public class Main {
         int right = arr.length - 1;
 
         while (left < right) {
-
             if (arr[left] == 0 && arr[right] != 0) {
                 int temp = arr[left];
                 arr[left] = arr[right];
