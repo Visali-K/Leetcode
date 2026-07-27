@@ -19,7 +19,6 @@ public class Day3 {
         String s = sc.nextLine();
 
         int result = lengthOfLastWord(s);
-
         System.out.println("Length of last word: " + result);
 
         sc.close();
