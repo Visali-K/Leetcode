@@ -4,7 +4,6 @@ public class Day5 {
     public static String reverseString(String S) {
 
         char[] arr = S.toCharArray();
-
         int left = 0;
         int right = arr.length - 1;
 
