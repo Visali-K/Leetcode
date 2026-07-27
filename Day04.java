@@ -39,7 +39,7 @@ public class Day4 {
 
         Arrays.sort(arr, (a, b) -> map.get(b) - map.get(a));
 
-        // 
+        
         System.out.println("Top " + k + " frequent elements:");
 
         for (int i = 0; i < k; i++) {
