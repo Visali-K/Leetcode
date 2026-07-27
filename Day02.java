@@ -6,7 +6,7 @@ public class Day2 {
     public static int maxLength(String s) {
 
         Stack<Integer> st = new Stack<>();
-        st.push(-1); // Base index
+        st.push(-1); 
 
         int max = 0;
 
@@ -18,7 +18,7 @@ public class Day2 {
                 st.pop();
 
                 if (st.isEmpty()) {
-                    st.push(i); // New base index
+                    st.push(i); 
                 } else {
                     max = Math.max(max, i - st.peek());
                 }
