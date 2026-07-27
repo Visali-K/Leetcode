@@ -5,7 +5,7 @@ class Day7 {
     public static String encode(String s) {
 
         int count = 1;
-        String s1 = "";
+        String s1 = ""; 
 
         for (int i = 0; i < s.length() - 1; i++) {
 
