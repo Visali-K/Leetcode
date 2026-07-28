@@ -8,7 +8,7 @@ class Day9 {
         int best7 = -1;
         int minDigits = Integer.MAX_VALUE;
         for (int count4 = 0; count4 <= N / 4; count4++) {
-
+ 
             int remaining = N - (count4 * 4);
             if (remaining >= 0 && remaining % 7 == 0) {
 
